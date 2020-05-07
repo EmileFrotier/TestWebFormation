@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Test (dev)</title>
+    <link rel="stylesheet" href="ClickTest.css">
+    <script src="ClickTest.js" async></script>
+</head>
+<body>
+    <div class="app">
+        <div class="infoArea">
+            <button class="resetButton">
+                RESET
+            </button>
+        </div>
+        <div class="info">
+            <span class="timer" id="timerId">Timer = 0 sec</span><span class="cpsCounter">Click -> 0 </span>
+            <button class="buttonClickTest">
+                CLICK
+            </button>
+            <p class="infoAboutCps">
+                Pour commencer le click test cliqué sur le bouton au dessus <br>
+                Et choisir cis-dessous le timer !
+            </p>
+            <p class="selectTimer">
+                <select name="timer" id="diffTimer">
+                    <option value="1">5 secondes</option>
+                    <option value="2">10 secondes</option>
+                    <option value="3">20 secondes</option>
+                    <option value="4">1 minutes(épuisant)</option>
+                </select>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
